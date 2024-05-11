@@ -17,7 +17,7 @@ app = Client(
 )
 TIME_ZONE = os.getenv("Asia/Kolkata")
 #BOT_LIST = [i.strip() for i in os.getenv("SVDsinger_bot Rose_milk_chat_bot").split(' ')]
-CHANNEL_ID = int(os.getenv("-1001801094214"))
+CHANNEL_ID = os.getenv("-1001801094214")
 MESSAGE_ID = int(os.getenv("17"))
 BOT_ADMIN_IDS = [int(i.strip()) for i in os.getenv("6900132473 655594746").split(' ')]
 LOG_ID = int(os.getenv("-1002094585538"))
